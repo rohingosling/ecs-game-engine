@@ -1,13 +1,16 @@
 # ECS Game Engine - Particle Simulator
 
-A lightweight Entity Component System (ECS) game engine written in C++17, demonstrated through an interactive particle physics simulator built with SDL2.
+A lightweight Entity Component System (ECS) game engine written in C++.
 
-Originally developed in 2014 as an academic project exploring ECS architecture, this engine separates data from logic using entities, components, and systems rather than deep class hierarchies.
+Originally developed in 2004 for a game project. Last update in 2012 to update to C++17. 
 
 |  |  |
 |---|---|
 | ![Main Menu](demo/particle_demo/resources/screen_shots/screenshot-menu-main-800.png) | ![Particle Simulation](demo/particle_demo/resources/screen_shots/screenshot-simulation-800.png) |
 
+## Quick Start
+
+{{Quick start guide}}
 
 ## Demos
 
