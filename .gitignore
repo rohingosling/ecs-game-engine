@@ -1,0 +1,31 @@
+# Claude Code local settings
+.claude/
+
+# Build directories
+build/
+out/
+
+# IDE / editor files
+CMakeSettings.json
+.vs/
+.vscode/
+*.user
+
+# Scratch / working notes
+scratch/
+
+# Compiled binaries
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# CMake generated
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CMakeFiles/

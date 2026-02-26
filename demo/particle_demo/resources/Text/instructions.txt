@@ -1,0 +1,23 @@
+MENU NAVIGATION
+
+  Up / Down Arrow      Cycle through menu buttons.
+  Left / Right Arrow   Adjust particle count on settings buttons.
+  Enter                Activate the selected button.
+  Esc                  Go back one menu level, or select Exit from the main menu.
+
+SIMULATION CONTROLS
+
+  Arrow Keys           Accelerate the selected particle in the corresponding direction. Release the key to decelerate.
+  Tab                  Select the next particle.
+  Shift + Tab          Select the previous particle.
+  P                    Pause or unpause the simulation.
+  T                    Toggle particle trails on or off.
+  Esc                  Deselect all particles. If no particle is selected, exit to the main menu.
+
+GETTING STARTED
+
+  1. From the main menu, select Settings to configure the number of particles for each color group.
+  2. Use the Left and Right arrow keys to adjust the count for Red, Green, Blue, and Yellow particles.
+  3. Select Back to return to the main menu, then select Start Simulation to begin.
+  4. Once the simulation is running, press Tab to select a particle and use the Arrow keys to push it around.
+  5. Press Esc at any time to return to the main menu.
