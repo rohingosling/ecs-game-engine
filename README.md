@@ -6,7 +6,8 @@ Originally developed in 2014 as an academic project exploring ECS architecture, 
 
 |  |  |
 |---|---|
-| ![Main Menu](scratch/screenshot-menu-main-800.png) | ![Particle Simulation](scratch/screenshot-simulation-800.png) |
+| ![Main Menu](demo/particle_demo/resources/screen%20shots/screenshot-menu-main-800.png) | ![Particle Simulation](demo/particle_demo/resources/screen%20shots/screenshot-simulation-800.png) |
+
 
 ## Demos
 
