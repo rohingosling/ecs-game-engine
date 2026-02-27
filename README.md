@@ -93,6 +93,7 @@ public:
 
 ```cpp
 // my_game/main.cpp
+
 #include "../ecs/World.h"
 #include "../engine/Engine.h"
 #include "components/HealthComponent.h"
@@ -104,13 +105,16 @@ int main ()
     auto& world = engine.getWorld ();
 
     // 1. Register components.
+
     world.registerComponent<HealthComponent> ();
 
     // 2. Register systems (must happen before entity creation).
+
     auto signature = world.makeSignature<HealthComponent> ();
     world.registerSystem<HealthSystem> ( "HealthSystem", signature );
 
     // 3. Create entities.
+
     auto player = world.createEntity ();
     world.addComponent ( player, HealthComponent { 100 } );
 
@@ -118,6 +122,7 @@ int main ()
     world.addComponent ( enemy, HealthComponent { 50 } );
 
     // 4. Run the game loop.
+
     engine.run ();
 
     return 0;
@@ -158,12 +163,15 @@ target_link_libraries(my_game PRIVATE ecs)
 
 ```bash
 # Configure the project.
+
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 
 # Build all targets.
+
 cmake --build build
 
 # Or build just your game.
+
 cmake --build build --target my_game
 ```
 
