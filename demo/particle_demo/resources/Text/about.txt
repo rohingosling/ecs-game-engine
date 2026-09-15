@@ -1,0 +1,25 @@
+ABOUT THIS PROJECT
+
+  Particle Simulator is an academic project written in 2014 as part of an academic assignment. It was developed to
+  explore the principles of Entity Component System (ECS) game engine architecture.
+
+  The simulation demonstrates Newtonian gravitational attraction, short range repulsive forces, billiard ball collision
+  mechanics, friction, and elasticity. Particles are organized into color coded groups, each with shared physical
+  properties that can be configured through the settings menu.
+
+ECS ARCHITECTURE
+
+  The particle simulator demonstrates most features of the ECS Engine.
+  The ECS Engine separates data from logic using three core concepts:
+
+  - Entities are containers that represent objects in the simulation, such as particles, menus, and backgrounds.
+  - Components are pure data holders attached to entities, storing properties like position, velocity, and mass.
+  - Systems are stateless processors that operate on entities each frame, handling physics, rendering, collision
+    detection, and user input.
+
+  This separation allows game logic to be composed from small, reusable pieces rather than deep class hierarchies.
+
+ABOUT THE AUTHOR
+
+  Rohin Gosling is an independent computational intelligence researcher with interests in simulation, game engine
+  design, and software architecture.
